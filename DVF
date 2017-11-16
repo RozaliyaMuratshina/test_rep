@@ -1,0 +1,30 @@
+---
+###### Transmit Settings ######
+external_host_http: 10.66.62.230
+external_port_http: 7703
+
+external_host_radius: 10.66.62.202
+external_port_radius: 6703
+
+external_host_https: 10.66.63.54
+external_port_https: 8703
+
+external_host_https_tracker: 10.66.63.63
+external_port_https_tracker: 9703
+
+
+##### SNMP Settings #####
+USE_SNMP: 0
+EnableSnmpTrap: 0
+ReceiverIP: "10.27.24.21"
+
+##### RADIUS Settings #####
+Secrets: "{10.27.219.9;megafondv};
+	  {10.38.125.10;megafondv};"
+
+##### classificator.cfg Settings #####
+max_half_flow_context: 30000000
+enable_pool_config: 0
+
+##### Other Settings #####
+uplink_octets: "{10;100;37;78;83;85}"
