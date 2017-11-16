@@ -1,0 +1,7 @@
+---
+- name: Install environment and stat-collector
+  hosts: all
+  user: root
+  roles:
+    - common
+    - stat-collector

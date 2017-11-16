@@ -1,0 +1,36 @@
+[Megafon:children]
+# ЕЦУС Восток
+DVF
+KF
+PF
+SF
+# ЕЦУС Столица
+STF
+# ЕЦУС Запад
+UF
+CF
+SZF
+
+[DVF]
+dvf[01:04]
+
+[KF]
+kf[01:04]
+
+[SF]
+sf[01:04]
+
+[UF]
+uf[01:04]
+
+[PF]
+pvf[01:04]
+
+[CF]
+cf[01:03]
+
+[STF]
+stf[01:04]
+
+[SZF]
+szf[01:04]
