@@ -1,0 +1,13 @@
+---
+ansible_ssh_host: 10.52.131.127
+secondary_node: "{{ hostvars[groups['CF'][1]]['ansible_ssh_host'] }}"
+
+dpdk_interface: "04:00.1"
+source_id: 200
+
+hostname: megafon-cnt-dpi1
+
+srcID_list: "{0.0.0.0/0;200};"
+
+master_ip: "{{secondary_node}}"
+failover_master: 1
